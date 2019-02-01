@@ -15,3 +15,6 @@ app.use('/', express.static(__dirname + '/views'));
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
+
+let testgo = "now we see you";
+console.log("hello world",testgo);
